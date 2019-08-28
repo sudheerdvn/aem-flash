@@ -24,6 +24,7 @@
 
     <modules>
         <module>core</module>
+        <module>mark</module>
         <module>ui.apps</module>
         <module>ui.content</module>
         <module>it.tests</module>

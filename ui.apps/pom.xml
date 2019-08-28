@@ -99,6 +99,11 @@
                             <artifactId>aem-flash.core</artifactId>
                             <target>/apps/aem-flash/install</target>
                         </embedded>
+                        <embedded>
+                            <groupId>aem-flash</groupId>
+                            <artifactId>aem-flash.mark</artifactId>
+                            <target>/apps/aem-flash/install</target>
+                        </embedded>
                     </embeddeds>
                     <subPackages>
                         <subPackage>
@@ -124,6 +129,11 @@
         <dependency>
             <groupId>aem-flash</groupId>
             <artifactId>aem-flash.core</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>aem-flash</groupId>
+            <artifactId>aem-flash.mark</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
