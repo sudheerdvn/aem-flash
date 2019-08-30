@@ -551,6 +551,13 @@
                 <version>1.4</version>
                 <scope>test</scope>
             </dependency>
+	<!-- Custom OSGi Dependencies -->
+	<dependency>
+		<groupId>flash-common</groupId>
+		<artifactId>flash-common.core</artifactId>
+		<version>1.0-SNAPSHOT</version>
+		<scope>provided</scope>
+	</dependency>
         </dependencies>
     </dependencyManagement>
 
