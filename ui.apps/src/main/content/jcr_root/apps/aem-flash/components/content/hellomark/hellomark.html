@@ -19,3 +19,13 @@
 HelloMarkModel says:
 ${hello.message}
 </pre>
+
+<sly data-sly-use.model="com.flash.common.core.services.GranolaBar">
+	${model.type}
+</sly>
+
+<!-- Reading data from a service in different bundle  -->
+<sly data-sly-use.productModel="com.flash.aem.mark.models.ProductType">
+	<p>${productModel.granolaType}</p>
+</sly>
+--

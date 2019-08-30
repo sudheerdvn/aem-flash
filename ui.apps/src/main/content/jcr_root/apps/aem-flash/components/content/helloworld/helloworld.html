@@ -19,3 +19,18 @@
 HelloWorldModel says:
 ${hello.message}
 </pre>
+
+
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientLib.js @ categories='aem-flash.base'}" data-sly-unwrap/>
+<div>
+    <h4> Invoke an AEM Workflow that approves the Selected Asset</h4>
+       <form>    
+            <fieldset>
+            <legend>Specify Asset and email address:</legend>
+            <input class="btmspace-15" type="text" id="assetPath" value="/content/dam/we-retail/en/people/mens/men_1.jpg" placeholder="Name">
+            <input class="btmspace-15" type="text" id="email" value="scottm@adobe.com" placeholder="Email address">
+            <input type="button" value="Submit"  name="submit" id="submit" value="Submit">
+          </fieldset>
+        </form>
+
+    </div>
