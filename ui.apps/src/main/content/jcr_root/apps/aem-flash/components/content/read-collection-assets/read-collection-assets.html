@@ -1,0 +1,7 @@
+<span data-sly-test="${wcmmode.edit || wcmmode.preview || wcmmode.design}">${component.title}</span>
+<template data-sly-template.renderImages="${ @ model }">
+	<sly data-sly-list.imagePath="${model.imagePaths}">
+		<img src="${imagePath}" />
+	</sly>
+</template>
+<sly data-sly-use.model="com.flash.aem.core.models.ReadCollectionAssets"  data-sly-call="${renderImages @ model=model}" />
