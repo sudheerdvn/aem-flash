@@ -2,4 +2,6 @@
 <workspaceFilter version="1.0">
     <filter root="/apps/aem-flash"/>
     <filter root="/apps/sling" />
+	<filter root="/apps/request-for-deletion" />
+	<filter root="/apps/dam/gui" />
 </workspaceFilter>
