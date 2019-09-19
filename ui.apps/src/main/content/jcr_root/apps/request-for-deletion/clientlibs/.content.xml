@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:ClientLibraryFolder"
-    categories="[dam.gui.admin.coral,dam.gui.actions.coral,unorm.coral,granite.shared,dam.gui.components.admin.adhocassetshare.coral,cq.common.wcm,dam.gui.view.insight,cq.gui.damadmin.lightbox.coral,cq.siteadmin.common,cq.gui.s7dam.admin.assetviewer,dam.gui.coral.fileupload,dam.gui.coral.backhref,cq.gui.coral.common.admin.timeline,dam.gui.admin.asset.uploadstatus,cq.gui.damadmin.references,dam.gui.admin.publishasset.coral,dam.gui.admin.unpublishasset.coral,dam.gui.coral.common.admin.timeline.events.workflow,dam.gui.coral.common.admin.timeline.events.version,dam.gui.admin.util.coral,dam.gui.coral.relateasset,dam.gui.admin.desktop.coral, dam.gui.coral.assetdetails.assetnavigator.layout]"/>
+    categories="[dam.gui.actions.coral]"/>
